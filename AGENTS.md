@@ -15,21 +15,10 @@
 ## Pitfalls
 - Alibaba OpenAPI throttling: retry with exponential backoff is built into the RAM scanner (`isThrottle` + `withRetry`). Don't remove it.
 - BigQuery billing export must be enabled in GCP before the billing watcher can query it (see `terraform/modules/gcp-billing`).
-- Go module path is `github.com/si_juling/ack-gcp-guard`; update if the repo owner changes.
+- Go module path is `github.com/verrysimatupang99/ack-gcp-guard`.
 
-## Publish to GitHub (finish the last step)
-Local git is already initialized (`main` branch) and fully committed; remote `origin` is set to `https://github.com/si_juling/ack-gcp-guard.git`. To push:
-
-```bash
-# 1. Create a public repo first (one time), e.g. via gh:
-#    gh repo create ack-gcp-guard --public --source . --push
-#    Or create it in the GitHub UI, then:
-git remote set-url origin https://github.com/<your-username>/ack-gcp-guard.git
-# 2. Push (use a PAT with `repo` scope when prompted):
-git push -u origin main
-```
-
-If the GitHub username differs from `si_juling`, run `git remote set-url origin ...` with the correct URL before pushing.
+## Published
+Public repo live at `https://github.com/verrysimatupang99/ack-gcp-guard` (branch `main`); remote `origin` is set to the clean URL. Push future commits with `git push`.
 
 ## TODO (for Devin Bots)
 - Parallelize the three workers (currently sequential subcommands).
