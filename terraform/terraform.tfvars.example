@@ -1,0 +1,9 @@
+# Copy to terraform.tfvars and fill in real values.
+alibaba_account_id = "1234567890123456"
+# alibaba_region      = "cn-hangzhou"
+
+gcp_project_id = "my-gcp-project"
+# gcp_region          = "asia-southeast1"
+# gcp_billing_dataset = "billing_export"
+
+# ram_user_name = "ack-gcp-guard-scanner"

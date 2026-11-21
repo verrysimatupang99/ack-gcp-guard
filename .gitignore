@@ -1,0 +1,15 @@
+# Build artifacts
+bin/
+*.test
+*.out
+
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.backup
+*.tfvars
+!terraform/terraform.tfvars.example
+
+# Local
+.env
+*.log
