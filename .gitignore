@@ -10,6 +10,9 @@ terraform/*.tfstate.backup
 *.tfvars
 !terraform/terraform.tfvars.example
 
+# Tool-internal state (not part of the repo)
+.polydev/
+
 # Local
 .env
 *.log
