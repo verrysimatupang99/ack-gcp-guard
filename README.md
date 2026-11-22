@@ -1,3 +1,7 @@
+> **PINDAH** — repo ini digabung ke [`MaximaLabs/ops-hub`](https://github.com/MaximaLabs/ops-hub). Diarsipkan read-only; pengembangan lanjut di sana.
+
+---
+
 ```
         █████╗  ██████╗██╗  ██╗    ██████╗  ██████╗██████╗ 
        ██╔══██╗██╔════╝██║ ██╔╝    ██╔══██╗██╔════╝██╔══██╗
